@@ -1,7 +1,7 @@
 title: Yaswanth
 description: Yaswanth Amara's home on internet.
 baseurl: ""
-url: https://yash1th.com
+url: http://yash1th.com
 enforce_ssl: yash1th.com
 exclude: ['README.md']
 
