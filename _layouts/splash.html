@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript">
+    var host = "yash1th.github.io";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
+  </script>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I am passionate about building things for the web, learning new technologies and having some fun along the way! Currently I devote most of my time to frontend side of things, but I am not afraid to dig into backend or any other tech to get the job done.">
+  <title>Yaswanth Amara</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/splash.css">
+</head>
+<body>
+
+	<input type="checkbox" id="sidebartoggler">
+
+	<div class="page-wrap">
+
+		<label for="sidebartoggler" class="toggle">☰</label>
+
+		<div class="container">
+			<div class="heading">
+				<h1>Yaswanth Amara</h1>
+				<h2>Software Developer and Automation Engineer</h2>
+        <div class="home-page-links">
+          <a href="/about">About</a>
+          <a href="/projects">Projects</a>
+          <a href="/contact">Contact</a>
+          <a href="https://google.com">Resume</a>
+        </div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			{% include nav.html %}
+		</div>
+
+	</div>
+
+	{% include ga.html %}
+
+</body>
+</html>
